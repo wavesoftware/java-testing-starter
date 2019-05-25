@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+pl.wavesoftware.log4j2.spring.Log4j2AutoConfiguration
