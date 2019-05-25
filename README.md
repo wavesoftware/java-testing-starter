@@ -1,4 +1,4 @@
-# java-testing-starter
+# Testing Starter for Java
 [![Build Status](https://travis-ci.org/wavesoftware/java-testing-starter.svg?branch=develop)](https://travis-ci.org/wavesoftware/java-testing-starter) [![Build status](https://ci.appveyor.com/api/projects/status/381g89l6entvp0nk/branch/develop?svg=true)](https://ci.appveyor.com/project/cardil/java-testing-starter/branch/develop) [![Quality Gate](https://sonar.wavesoftware.pl/api/badges/gate?key=pl.wavesoftware.testing:testing-starter-parent)](https://sonar.wavesoftware.pl/dashboard/index/pl.wavesoftware.testing:testing-starter-parent) [![Technical Dept](https://sonar.wavesoftware.pl/api/badges/measure?key=pl.wavesoftware.testing%3Atesting-starter-parent&metric=sqale_debt_ratio)](https://sonar.wavesoftware.pl/dashboard/index/pl.wavesoftware.testing:testing-starter-parent) [![codecov](https://codecov.io/gh/wavesoftware/java-testing-starter/branch/develop/graph/badge.svg)](https://codecov.io/gh/wavesoftware/java-testing-starter) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/pl.wavesoftware.testing/junit5-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/pl.wavesoftware.testing/junit5-starter)
 
 A simple testing starter for Java projects
@@ -10,6 +10,7 @@ A simple testing starter for Java projects
   <groupId>pl.wavesoftware.testing</groupId>
   <artifactId>junit5-starter</artifactId>
   <version>1.0.0</version>
+  <packaging>pom</packaging>
   <scope>test</scope>
 </dependency>
 ```
