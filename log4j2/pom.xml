@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>log4j2</artifactId>
-  <name>Testing Starter :: Ansi</name>
+  <name>Testing Starter :: Log4j 2</name>
 
   <dependencies>
     <dependency>
