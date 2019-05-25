@@ -29,7 +29,7 @@
   <artifactId>testing-starter-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Testing Starter :: Parent</name>
+  <name>Testing Starter</name>
   <description>
     A simple testing starter for Java projects
   </description>
