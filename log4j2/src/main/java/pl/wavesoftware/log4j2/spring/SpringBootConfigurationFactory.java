@@ -48,7 +48,7 @@ public final class SpringBootConfigurationFactory extends ConfigurationFactory {
 
 	@Override
 	protected String[] getSupportedTypes() {
-		return TYPES;
+		return TYPES.clone();
 	}
 
 	@Override

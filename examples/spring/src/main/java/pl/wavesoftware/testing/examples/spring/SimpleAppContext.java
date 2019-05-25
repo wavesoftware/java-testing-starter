@@ -17,12 +17,15 @@
 package pl.wavesoftware.testing.examples.spring;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 
 /**
  * @author <a href="mailto:krzysztof.suszynski@wavesoftware.pl">Krzysztof Suszynski</a>
  * @since 1.0.0
  */
 @SuppressWarnings("WeakerAccess")
-@EnableAutoConfiguration
+@EnableAutoConfiguration(exclude = {
+  WebMvcAutoConfiguration.class
+})
 public final class SimpleAppContext {
 }
