@@ -22,6 +22,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
  * @author <a href="mailto:krzysztof.suszynski@wavesoftware.pl">Krzysztof Suszynski</a>
  * @since 1.0.0
  */
+@SuppressWarnings("WeakerAccess")
 @EnableAutoConfiguration
-final class SimpleAppContext {
+public final class SimpleAppContext {
 }
