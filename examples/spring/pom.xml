@@ -20,7 +20,7 @@
   <parent>
     <groupId>pl.wavesoftware.testing</groupId>
     <artifactId>examples-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <groupId>pl.wavesoftware.testing.examples</groupId>
