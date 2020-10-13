@@ -21,7 +21,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-dependencies</artifactId>
     <version>2.1.5.RELEASE</version>
-    <relativePath />
+    <relativePath/>
   </parent>
   <groupId>pl.wavesoftware.testing</groupId>
   <artifactId>testing-starter-parent</artifactId>
@@ -107,7 +107,7 @@
     <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     <unpack-manifestmf.skip>true</unpack-manifestmf.skip>
 
-    <skipTests />
+    <skipTests/>
     <coveralls.skip>${skipTests}</coveralls.skip>
     <sonar.skip>${skipTests}</sonar.skip>
   </properties>
@@ -134,7 +134,7 @@
       <dependency>
         <groupId>org.awaitility</groupId>
         <artifactId>awaitility</artifactId>
-        <version>3.1.6</version>
+        <version>4.0.3</version>
         <scope>test</scope>
       </dependency>
       <dependency>
