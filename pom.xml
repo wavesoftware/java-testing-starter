@@ -25,7 +25,7 @@
   </parent>
   <groupId>pl.wavesoftware.testing</groupId>
   <artifactId>testing-starter-parent</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>main-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Testing Starter</name>
   <description>
